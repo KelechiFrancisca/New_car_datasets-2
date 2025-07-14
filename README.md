@@ -23,6 +23,16 @@ This is a report analysis of car sales.
 > Manual cars sold
 >
 > Total cars sold
+>
+> Total Revenue by color
+>
+> Total Revenue by Body style
+>
+> Total Revenue by Dealer Region
+>
+> Total Revenue by Transmission
+>
+> Total Revenue by Company
 
 
 ## Power BI Visualization
