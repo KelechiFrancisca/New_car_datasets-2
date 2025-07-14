@@ -38,3 +38,5 @@ This is a report analysis of car sales.
 ## Power BI Visualization
 
 ### Visuals
+
+## SQL Queries
