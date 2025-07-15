@@ -46,3 +46,4 @@ This is a report analysis of car sales.
 ## SQL Queries
 ```sql
 SELECT *FROM car_data;
+
