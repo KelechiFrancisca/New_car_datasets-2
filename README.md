@@ -12,9 +12,8 @@ This is a report analysis of car sales.
 
 > This is a point of sales report
 >
-> Total sales
->
-> Males Customers
+- Total sales
+-  Males Customers
 >
 > Female Customers
 >
@@ -45,12 +44,16 @@ This is a report analysis of car sales.
 ## SQL Queries
 ```sql
 SELECT *FROM car_data;
+```
 ```sql
 SELECT color, SUM(price) AS 'Total sales' FROM car_dataset
-```sql
 GROUP BY color
+```
+
 ```sql
 ORDER BY SUM(price) DESC;
+```
+
 ```sql
 SELECT *FROM car_data;
-
+```
