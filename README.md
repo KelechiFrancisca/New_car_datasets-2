@@ -28,6 +28,7 @@ This is a report analysis of car sales.
 ## Power BI Visualization
 
 
+<img width="1197" height="666" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/65a85906-70d7-418e-8b8e-68fcfb8d2a1d" />
 
 
 ## SQL Queries
