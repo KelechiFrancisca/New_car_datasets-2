@@ -39,7 +39,6 @@ This is a report analysis of car sales.
 
 
 
-<img width="1600" height="900" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/beb952ab-df03-48c4-aacf-def9bb5ddeee" />
 
 ### Visuals
 
