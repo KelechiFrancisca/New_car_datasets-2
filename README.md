@@ -33,17 +33,41 @@ This is a report analysis of car sales.
 
 ## SQL Queries
 ```sql
-SELECT *FROM car_data;
+SELECT *FROM car_dataset;
 ```
 ```sql
 SELECT color, SUM(price) AS 'Total sales' FROM car_dataset
 GROUP BY color
 ```
-
 ```sql
 ORDER BY SUM(price) DESC;
 ```
-
 ```sql
-SELECT *FROM car_data;
+SELECT Body_Style, SUM(price) AS 'Total body_style' FROM car_dataset
+GROUY BY Body_Style
 ```
+```sql
+SELECT Transmission, SUM(price)  AS 'Total Transmission' FROM car_data
+GROUD BY Transmission
+```
+```sql
+SELECT SUM(price) AS 'Total sales 2022' FROM car_data
+WHERE date BETWEEN '2022/01/02' AND '2022/12/31' 
+```
+```sql
+SELECT SUM(price) AS 'Total sales 2022 AND 2023' FROM car_data
+WHERE date BETWEEN '2022/01/02' AND '2023/12/31'
+```
+```sql
+SELECT Price, SUM(price) AS 'Total sales 2022 and 2023 FROM car_dataset
+GROUP BY Price
+```
+```sql
+SELECT Price, AVG(price) AS 'AVERAGE_selling_price' FROM car_dataset
+GROUP BY Price
+```
+```sql
+SELECT Price, AVG(price) AS 'AVERAGE_selling_price 2022 and 2023' FROM car_dataset
+GROUP BY Price
+```
+
