@@ -40,6 +40,10 @@ SELECT color, SUM(price) AS 'Total sales' FROM car_dataset
 GROUP BY color
 ```
 ```sql
+SELECT color, SUM(price) AS 'Cartegory_color' FROM car_dataset
+GROUP BY color
+```
+```sql
 ORDER BY SUM(price) DESC;
 ```
 ```sql
