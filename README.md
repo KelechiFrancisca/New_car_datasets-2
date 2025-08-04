@@ -47,15 +47,15 @@ SELECT Body_Style, SUM(price) AS 'Total body_style' FROM car_dataset
 GROUY BY Body_Style
 ```
 ```sql
-SELECT Transmission, SUM(price)  AS 'Total Transmission' FROM car_data
+SELECT Transmission, SUM(price)  AS 'Total Transmission' FROM car_dataset
 GROUD BY Transmission
 ```
 ```sql
-SELECT SUM(price) AS 'Total sales 2022' FROM car_data
+SELECT SUM(price) AS 'Total sales 2022' FROM car_dataset
 WHERE date BETWEEN '2022/01/02' AND '2022/12/31' 
 ```
 ```sql
-SELECT SUM(price) AS 'Total sales 2022 AND 2023' FROM car_data
+SELECT SUM(price) AS 'Total sales 2022 AND 2023' FROM car_dataset
 WHERE date BETWEEN '2022/01/02' AND '2023/12/31'
 ```
 ```sql
